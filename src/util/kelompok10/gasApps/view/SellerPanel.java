@@ -42,9 +42,9 @@ public class SellerPanel extends javax.swing.JFrame {
         JumlahGasSeller1 = new javax.swing.JTextField();
         JumlahGasSeller2 = new javax.swing.JTextField();
         JumlahGasSeller3 = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jTextArea1 = new javax.swing.JTextArea();
+        jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -192,9 +192,6 @@ public class SellerPanel extends javax.swing.JFrame {
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, 248));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\all\\Desktop\\Project\\Image tabung.png")); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 90, -1, -1));
-
         jLabel5.setFont(new java.awt.Font("Century Gothic", 1, 19)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Ceriakan Kehangatan Keluarga");
@@ -207,8 +204,11 @@ public class SellerPanel extends javax.swing.JFrame {
         jTextArea1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 89, 182), 3, true));
         jPanel1.add(jTextArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, 312, 60));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\all\\Desktop\\Project\\rsz_3untitled.png")); // NOI18N
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-70, -100, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/util/kelompok10/gasApps/assets/Image tabung.png"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/util/kelompok10/gasApps/assets/rsz_3untitled.png"))); // NOI18N
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -30, 390, 180));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
